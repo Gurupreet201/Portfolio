@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>D.S.Documentation</title>
+        <link rel="stylesheet" href="htmlproject5.css">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body id="body">
+        <nav id="navbar">
+            <header id="nav-header">D.S.Documentation</header>
+            <ul>
+                <li><a class="nav-link" href="#introduction">Introduction</a></li>
+                <li><a class="nav-link" href="#terminology">Basic Terminology</a></li>
+                <li><a class="nav-link" href="#need">Need</a></li>
+                <li><a class="nav-link" href="#advantages">Advantages</a></li>
+                <li><a class="nav-link" href="#types">Types</a></li>
+                <li><a class="nav-link" href="#linear data structure">Linear Data Structure</a></li>
+                <li><a class="nav-link" href="#non linear data structure">Non Linear Data Structure</a></li>
+                <li><a class="nav-link" href="#operations">Operations</a></li>
+                <li><a class="nav-link" href="#array">Array</a></li>
+                <li><a class="nav-link" href="#array-defination">Array-Defination</a></li>
+                <li><a class="nav-link" href="#array-properties">Array-Properties</a></li>
+                <li><a class="nav-link" href="#array-need">Array-Need</a></li>
+                <li><a class="nav-link" href="#array-advantages">Array-Advantages</a></li>
+                <li><a class="nav-link" href="#linked-list">Linked-List</a></li>
+                <li><a class="nav-link" href="#linked-list-defination">Linked-List-Defination</a></li>
+                <li><a class="nav-link" href="#linked-list-use">Linked-List-Uses</a></li>
+                <li><a class="nav-link" href="#linked-list-overarray">Linked-List-OverArray</a></li>
+                <li><a class="nav-link" href="#singly-linked-list">Singly-Linked-List</a></li>
+                <li><a class="nav-link" href="#stack">Stack</a></li>
+                <li><a class="nav-link" href="#stack-defination">Stack-Defination</a></li>
+                <li><a class="nav-link" href="#stack-applications">Stack-Applications</a></li>
+                <li><a class="nav-link" href="#queue">Queue</a></li>
+                <li><a class="nav-link" href="#queue-defination">Queue-Defination</a></li>
+                <li><a class="nav-link" href="#queue-application">Queue-Applications</a></li>
+                <li><a class="nav-link" href="#tree">Tree</a></li>
+                <li><a class="nav-link" href="#tree-defination">Tree-Defination</a></li>
+                <li><a class="nav-link" href="#basic-terminology">Basic-Terminology</a></li>
+                <li><a class="nav-link" href="#tree-types">Tree-Types</a></li>
+                <li><a class="nav-link" href="#binary-tree">Binary Tree</a></li>
+                <li><a class="nav-link" href="#binary-search-tree">Binary Search Tree</a></li>
+                <li><a class="nav-link" href="#avl-tree">A.V.L Tree</a></li>
+                <li><a class="nav-link" href="#b-tree">B Tree</a></li>
+                <li><a class="nav-link" href="#b+tree">B+ Tree</a></li>
+                <li><a class="nav-link" href="#graph">Graph</a></li>
+                <li><a class="nav-link" href="#graph-defination">Graph-Defination</a></li>
+                <li><a class="nav-link" href="#directed-graphs">Directed and Undirected Graphs</a></li>
+                <li><a class="nav-link" href="#graph-terminology">Graph-Terminology</a></li>
+                <li><a class="nav-link" href="#searching">Searching</a></li>
+                <li><a class="nav-link" href="#searching-def">Defination</a></li>
+                <li><a class="nav-link" href="#linear-search">Linear-Search</a></li>
+                <li><a class="nav-link" href="#binary-search">Binary-Search</a></li>
+                <li><a class="nav-link" href="#sorting">Sorting</a></li>
+                <li><a class="nav-link" href="#reference">Reference</a></li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="introduction">
+                    <header>Introduction</header>
+                    <article>
+                    <p>Data Structure can be defined as the group of data elements which provides an efficient way of storing and organising data in the computer so that it can be used efficiently. Some examples of Data Structures are arrays, Linked List, Stack, Queue, etc. Data Structures are widely used in almost every aspect of Computer Science i.e. Operating System, Compiler Design, Artifical intelligence, Graphics and many more.</p>
+                    <p>Data Structures are the main part of many computer science algorithms as they enable the programmers to handle the data in an efficient way. It plays a vitle role in enhancing the performance of a software or a program as the main function of the software is to store and retrieve the user's data as fast as possible.</p>
+                </article>
+            </section>
+            <section class="main-section" id="terminology">
+                    <header>Basic Terminology</header>
+                    <article>
+                    <p>Data structures are the building blocks of any program or the software. Choosing the appropriate data structure for a program is the most difficult task for a programmer. Following terminology is used as far as data structures are concerned</p>
+                    <ul>
+                        <li><span class="spacing"><strong>Data:</strong></span>  Data can be defined as an elementary value or the collection of values, for example, student's name and its id are the data about the student.</li>
+                        <li><span class="spacing"><strong>Group Items:</strong></span>  Data items which have subordinate data items are called Group item, for example, name of a student can have first name and the last name.</li>
+                        <li><span class="spacing"><strong>Record:</strong></span>  Record can be defined as the collection of various data items, for example, if we talk about the student entity, then its name, address, course and marks can be grouped together to form the record for the student.</li>
+                        <li><span class="spacing"><strong>File:</strong></span>  A File is a collection of various records of one type of entity, for example, if there are 60 employees in the class, then there will be 20 records in the related file where each record contains the data about each employee.</li>
+                        <li><span class="spacing"><strong>Attribute and Entity:</strong></span>  An entity represents the class of certain objects. it contains various attributes. Each attribute represents the particular property of that entity.</li>
+                        <li><span class="spacing"><strong>Field:</strong></span>  Field is a single elementary unit of information representing the attribute of an entity.</li>
+                    </ul>
+                    </article>
+            </section>
+            <section class="main-section" id="need">
+                    <header>Need of Data Structures</header>
+                    <article>
+                        <p>As applications are getting complexed and amount of data is increasing day by day, there may arrise the following problems:</p>
+                        <ul>
+                            <li><span class="spacing"><strong>Processor speed:</strong></span>  To handle very large amout of data, high speed processing is required, but as the data is growing day by day to the billions of files per entity, processor may fail to deal with that much amount of data.</li>
+                            <li><span class="spacing"><strong>Data Search:</strong></span>  Consider an inventory size of 106 items in a store, If our application needs to search for a particular item, it needs to traverse 106 items every time, results in slowing down the search process.</li>
+                            <li><span class="spacing"><strong>Multiple requests:</strong></span>  If thousands of users are searching the data simultaneously on a web server, then there are the chances that a very large server can be failed during that process.</li>
+                        </ul>
+                        <p>in order to solve the above problems, data structures are used. Data is organized to form a data structure in such a way that all items are not required to be searched and required data can be searched instantly.</p>
+                    </article>
+            </section>
+            <section class="main-section" id="advantages">
+                    <header>Advantages of Data Structures</header>
+                    <article>
+                        <ul>
+                            <li><span class="spacing"><strong>Efficiency:</strong></span>  Efficiency of a program depends upon the choice of data structures. For example: suppose, we have some data and we need to perform the search for a perticular record. In that case, if we organize our data in an array, we will have to search sequentially element by element. hence, using array may not be very efficient here. There are better data structures which can make the search process efficient like ordered array, binary search tree or hash tables.</li>
+                            <li><span class="spacing"><strong>Reusability:</strong></span>  Data structures are reusable, i.e. once we have implemented a particular data structure, we can use it at any other place. Implementation of data structures can be compiled into libraries which can be used by different clients.</li>
+                            <li><span class="spacing"><strong>Abstraction:</strong></span>  Data structure is specified by the ADT which provides a level of abstraction. The client program uses the data structure through interface only, without getting into the implementation details.</li>
+                        </ul>
+                    </article>
+            </section>
+            <section  class="main-section" id="classification">
+                <img class="image" src="https://static.javatpoint.com/ds/images/ds-introduction.png" alt="Image of Data Stucuture Classification">
+            </section>
+            <section class="main-section" id="types">
+                    <header>Types of Data Structure</header>
+                    <article>
+                        <ul>
+                            <li>Linear Data Structures.</li>
+                            <li>Non Linear Data Structures.</li>
+                        </ul>
+                    </article>
+            </section>
+            <section class="main-section" id="linear data structure">
+                    <header>Linear Data Structure</header>
+                    <article>
+                        <p><span class="spacing"><strong>Defination:</strong></span>  A data structure is called linear if all of its elements are arranged in the linear order. In linear data structures, the elements are stored in non-hierarchical way where each element has the successors and predecessors except the first and last element.</p>
+                    </article>
+                    <section class="main-section">
+                    <h2 class="sechead">Types</h2>
+                    <article>
+                        <ul>
+                            <li><span class="spacing"><strong>Arrays:</strong></span> An array is a collection of similar type of data items and each data item is called an element of the array. The data type of the element may be any valid data type like char, int, float or double.
+                                The elements of array share the same variable name but each one carries a different index number known as subscript. The array can be one dimensional, two dimensional or multidimensional.
+                                
+                                The individual elements of the array age are:
+                                
+                                age[0], age[1], age[2], age[3],......... age[98], age[99].
+                             </li>
+                             <li><span class="spacing"><strong>Linked List:</strong></span>  Linked list is a linear data structure which is used to maintain a list in the memory. It can be seen as the collection of nodes stored at non-contiguous memory locations. Each node of the list contains a pointer to its adjacent node.</li>
+                             <li><span class="spacing"><strong>Stack:</strong></span>  Stack is a linear list in which insertion and deletions are allowed only at one end, called top.
+
+                                A stack is an abstract data type (ADT), can be implemented in most of the programming languages. It is named as stack because it behaves like a real-world stack, for example: - piles of plates or deck of cards etc.
+                            </li>
+                            <li><span class="spacing"><strong>Queue:</strong></span>Queue is a linear list in which elements can be inserted only at one end called rear and deleted only at the other end called front.
+
+                                It is an abstract data structure, similar to stack. Queue is opened at both end therefore it follows First-In-First-Out (FIFO) methodology for storing the data items.
+                            </li>
+                        </ul>
+                    </article>
+                    </section>
+            </section>
+            <section class="main-section" id="non linear data structure">
+                <header>Non Linear Data Structure</header>
+                <article>
+                    <p><span class="spacing"><strong>Defination:</strong></span>  This data structure does not form a sequence i.e. each item or element is connected with two or more other items in a non-linear arrangement. The data elements are not arranged in sequential structure.</p> 
+                </article>
+                <section class="main-section">
+                    <h2 class="sechead">Types</h2>
+                    <article>
+                        <ul>
+                            <li><span class="spacing"><strong>Tree:</strong></span>  Trees are multilevel data structures with a hierarchical relationship among its elements known as nodes. The bottommost nodes in the herierchy are called leaf node while the topmost node is called root node. Each node contains pointers to point adjacent nodes.
+
+                                Tree data structure is based on the parent-child relationship among the nodes. Each node in the tree can have more than one children except the leaf nodes whereas each node can have atmost one parent except the root node. Trees can be classfied into many categories which will be discussed later in this tutorial.
+                            </li>
+                            <li><span class="spacing"><strong>Graphs:</strong></span>  Graphs can be defined as the pictorial representation of the set of elements (represented by vertices) connected by the links known as edges. A graph is different from tree in the sense that a graph can have cycle while the tree can not have the one.</li> 
+                        </ul>
+                    </article>
+                </section>
+            </section>
+            <section class="main-section" id="operations">
+                <header>Operations on data structure</header>
+                <article>
+                    <ul>
+                        <li><span class="spacing"><strong>Traversing:</strong></span>  Every data structure contains the set of data elements. Traversing the data structure means visiting each element of the data structure in order to perform some specific operation like searching or sorting.
+
+                            Example: If we need to calculate the average of the marks obtained by a student in 6 different subject, we need to traverse the complete array of marks and calculate the total sum, then we will devide that sum by the number of subjects i.e. 6, in order to find the average.
+                        </li>
+                        <li><span class="spacing"><strong>Insertion:</strong></span>   Insertion can be defined as the process of adding the elements to the data structure at any location.
+
+                            If the size of data structure is n then we can only insert n-1 data elements into it.
+                        </li>
+                        <li><span class="spacing"><strong>Deletion:</strong></span>  The process of removing an element from the data structure is called Deletion. We can delete an element from the data structure at any random location.
+
+                            If we try to delete an element from an empty data structure then underflow occurs.
+                        </li>
+                        <li><span class="spacing"><strong>Searching:</strong></span>  The process of finding the location of an element within the data structure is called Searching. There are two algorithms to perform searching, Linear Search and Binary Search. We will discuss each one of them later in this tutorial.</li>
+                        <li><span class="spacing"><strong>Sorting:</strong></span>  The process of arranging the data structure in a specific order is known as Sorting. There are many algorithms that can be used to perform sorting, for example, insertion sort, selection sort, bubble sort, etc.</li>
+                        <li><span class="spacing"><strong>Merging:</strong></span>  When two lists List A and List B of size M and N respectively, of similar type of elements, clubbed or joined to produce the third list, List C of size (M+N), then this process is called merging.</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="main-section" id="array">
+                <header>Array</header>
+                <section class="main-section" id="array-defination">
+                    <h2 class="sechead">Defination</h2>
+                    <ul>
+                        <li>Arrays are defined as the collection of similar type of data items stored at contiguous memory locations.</li>
+                        <li>Arrays are the derived data type in C programming language which can store the primitive type of data such as int, char, double, float, etc.</li>
+                        <li>Array is the simplest data structure where each data element can be randomly accessed by using its index number.</li>
+                        <li>For example, if we want to store the marks of a student in 6 subjects, then we don't need to define different variable for the marks in different subject. instead of that, we can define an array which can store the marks in each subject at a the contiguous memory locations.
+                            The array marks[10] defines the marks of the student in 10 different subjects where each subject marks are located at a particular subscript in the array i.e. marks[0] denotes the marks in first subject, marks[1] denotes the marks in 2nd subject and so on.
+                        </li>
+                    </ul>    
+                </section>
+                <section class="main-section" id="array-properties">
+                    <h2 class="sechead">Properties of the Array</h2>
+                    <ul>
+                        <li>Each element is of same data type and carries a same size i.e. int = 4 bytes.</li>
+                        <li>Elements of the array are stored at contiguous memory locations where the first element is stored at the smallest memory location.</li>
+                        <li>Elements of the array can be randomly accessed since we can calculate the address of each element of the array with the given base address and the size of data element.</li>
+                    </ul>
+                </section> 
+                <section class="main-section" id="array-need">
+                    <h2 class="sechead">Need of using Array</h2>
+                    <p class="text">In computer programming, the most of the cases requires to store the large number of data of similar type. To store such amount of data, we need to define a large number of variables. It would be very difficult to remember names of all the variables while writing the programs. Instead of naming all the variables with a different name, it is better to define an array and store all the elements into it.</p>
+                </section>
+                <section class="main-section" id="array-advantages">
+                    <h2 class="sechead">Advantages of Array</h2>
+                    <ul>
+                        <li>Array provides the single name for the group of variables of the same type therefore, it is easy to remember the name of all the elements of an array.</li>
+                        <li>Traversing an array is a very simple process, we just need to increment the base address of the array in order to visit each element one by one.</li>
+                        <li>Any element in the array can be directly accessed by using the index.</li>
+                    </ul>
+                </section>
+            </section>
+            <section  class="main-section" id="linked-list">
+                <header>Linked List</header>
+                <section class="main-section" id="linked-list-defination">
+                    <h2 class="sechead">Defination</h2>
+                    <ul>
+                        <li>Linked List can be defined as collection of objects called nodes that are randomly stored in the memory.</li>
+                        <li>A node contains two fields i.e. data stored at that particular address and the pointer which contains the address of the next node in the memory.</li>
+                        <li>The last node of the list contains pointer to the null.</li>
+                    </ul>
+                </section>
+                <section  class="main-section" id="linked-list-image">
+                    <img class="linkim" src="https://static.javatpoint.com/ds/images/linked-list.png" alt="Image of Linked List">
+                </section>
+                <section class="main-section" id="linked-list-use">
+                    <h2 class="sechead">Uses of Linked List</h2>
+                    <ul>
+                        <li>The list is not required to be contiguously present in the memory. The node can reside any where in the memory and linked together to make a list. This achieves optimized utilization of space.</li>
+                        <li>list size is limited to the memory size and doesn't need to be declared in advance.</li>
+                        <li>Empty node can not be present in the linked list.</li>
+                        <li>We can store values of primitive types or objects in the singly linked list.</li>
+                    </ul>    
+                </section>
+                <section  class="main-section" id="linked-list-overarray">
+                    <h2 class="sechead">Why use linked list over array?</h2>
+                    <p class="text">Till now, we were using array data structure to organize the group of elements that are to be stored individually in the memory. However, Array has several advantages and disadvantages which must be known in order to decide the data structure which will be used throughout the program.</p>
+                    <p class="text">Array contains following limitations:</p>
+                    <ul>
+                        <li>The size of array must be known in advance before using it in the program.</li>
+                        <li>Increasing size of the array is a time taking process. It is almost impossible to expand the size of the array at run time.</li>
+                        <li>All the elements in the array need to be contiguously stored in the memory. Inserting any element in the array needs shifting of all its predecessors.</li>
+                    </ul>
+                    <p class="text">Linked list is the data structure which can overcome all the limitations of an array. Using linked list is useful because</p>
+                    <ul>
+                        <li>It allocates the memory dynamically. All the nodes of linked list are non-contiguously stored in the memory and linked together with the help of pointers.</li>
+                        <li>Sizing is no longer a problem since we do not need to define its size at the time of declaration. List grows as per the program's demand and limited to the available memory space.</li>
+                    </ul>
+                </section>
+                <section class="main-section" id="singly-linked-list">
+                    <h2 class="sechead">Singly linked list</h2>
+                    <p class="text">Singly linked list can be defined as the collection of ordered set of elements. The number of elements may vary according to need of the program. A node in the singly linked list consist of two parts: data part and link part. Data part of the node stores actual information that is to be represented by the node while the link part of the node stores the address of its immediate successor.</p>
+                    <p class="text">One way chain or singly linked list can be traversed only in one direction. In other words, we can say that each node contains only next pointer, therefore we can not traverse the list in the reverse direction.</p>
+                </section>
+            </section>
+            <section class="main-section" id="stack">
+                    <header>Stack</header>
+                    <section  class="main-section" id="stack-defination">
+                        <h2 class="sechead">Defination</h2>
+                        <ul>
+                            <li>Stack is an ordered list in which, insertion and deletion can be performed only at one end that is called top.</li>
+                            <li>Stack is a recursive data structure having pointer to its top element.</li>
+                            <li>Stacks are sometimes called as Last-In-First-Out (LIFO) lists i.e. the element which is inserted first in the stack, will be deleted last from the stack.</li>
+                        </ul>
+                    </section>
+                    <section  class="main-section" id="stack-applications">
+                        <h2 class="sechead">Applications of Stack</h2>
+                        <ul>
+                            <li>Recursion</li>
+                            <li>Expression evaluations and conversions</li>
+                            <li>Parsing</li>
+                            <li>Browsers</li>
+                            <li>Editors</li>
+                            <li>Tree Traversals</li>
+                        </ul>
+                    </section>   
+            </section>
+            <section class="main-section" id="queue">
+                    <header>Queue</header>
+                    <section class="main-section" id="queue-defination">
+                        <h2 class="sechead">Defination</h2>
+                        <ul>
+                            <li> A queue can be defined as an ordered list which enables insert operations to be performed at one end called REAR and delete operations to be performed at another end called FRONT.</li>
+                            <li>Queue is referred to be as First In First Out list.</li>
+                            <li>For example, people waiting in line for a rail ticket form a queue.</li>
+                        </ul>
+                    </section>
+                    <section  class="main-section" id="queue-image">
+                        <img class="linkim" src="https://static.javatpoint.com/ds/images/queue.png" alt="Image of Queue">
+                    </section>
+                    <section class="main-section" id="queue-application">
+                        <h2 class="sechead">Applications of Queue</h2>
+                        <p class="text">Due to the fact that queue performs actions on first in first out basis which is quite fair for the ordering of actions. There are various applications of queues discussed as below.</p>
+                        <ul>
+                            <li>Queues are widely used as waiting lists for a single shared resource like printer, disk, CPU.</li>
+                            <li>Queues are used in asynchronous transfer of data (where data is not being transferred at the same rate between two processes) for eg. pipes, file IO, sockets.</li>
+                            <li>Queues are used as buffers in most of the applications like MP3 media player, CD player, etc.</li>
+                            <li>Queue are used to maintain the play list in media players in order to add and remove the songs from the play-list.</li>
+                            <li>Queues are used in operating systems for handling interrupts.</li>
+                        </ul>
+                    </section>
+            </section>
+            <section class="main-section" id="tree">
+                   <header>Tree</header>
+                   <section class="main-section" id="tree-defination">
+                        <h2 class="sechead">Defination</h2>
+                        <ul>
+                            <li>A Tree is a recursive data structure containing the set of one or more data nodes where one node is designated as the root of the tree while the remaining nodes are called as the children of the root.</li>
+                            <li>The nodes other than the root node are partitioned into the non empty sets where each one of them is to be called sub-tree.</li>
+                            <li>Nodes of a tree either maintain a parent-child relationship between them or they are sister nodes.</li>
+                            <li>In a general tree, A node can have any number of children nodes but it can have only a single parent.</li>
+                        </ul>
+                   </section>
+                   <section' class="main-section" id="tree-image">
+                        <img class="image" src="https://static.javatpoint.com/ds/images/tree.png" alt="Image of Tree">
+                   </section>
+                   <section class="main-section" id="basic-terminology">
+                        <h2 class="sechead">Basic terminology</h2>
+                        <ul>
+                            <li><span class="spacing"><strong>Root Node :-</strong></span>The root node is the topmost node in the tree hierarchy. In other words, the root node is the one which doesn't have any parent.</li>
+                            <li><span class="spacing"><strong>Sub Tree :-</strong></span> If the root node is not null, the tree T1, T2 and T3 is called sub-trees of the root node.</li>
+                            <li><span class="spacing"><strong>Leaf Node :-</strong></span>The node of tree, which doesn't have any child node, is called leaf node. Leaf node is the bottom most node of the tree. There can be any number of leaf nodes present in a general tree. Leaf nodes can also be called external nodes.</li>
+                            <li><span class="spacing"><strong>Path :-</strong></span>The sequence of consecutive edges is called path. In the tree shown in the above image, path to the node E is A→ B → E.</li>
+                            <li><span class="spacing"><strong>Ancestor node :-</strong></span> An ancestor of a node is any predecessor node on a path from root to that node. The root node doesn't have any ancestors. In the tree shown in the above image, the node F have the ancestors, B and A.</li>
+                            <li><span class="spacing"><strong>Degree :-</strong></span>Degree of a node is equal to number of children, a node have. In the tree shown in the above image, the degree of node B is 2. Degree of a leaf node is always 0 while in a complete binary tree, degree of each node is equal to 2.</li>
+                            <li><span class="spacing"><strong>Level Number :-</strong></span>Each node of the tree is assigned a level number in such a way that each node is present at one level higher than its parent. Root node of the tree is always present at level 0.</li>
+                        </ul>
+                    <section  class="main-section" id="tree-types">
+                        <h2 class="sechead">Types of Tree</h2>
+                        <p class="text">The tree data structure can be classified into six different categories.</p>
+                        <img class="linkim" src="https://static.javatpoint.com/ds/images/types-of-tree.png" alt="Image of Types of tree">
+                    </section>
+                    <section class="main-section" id="binary-tree">
+                        <h2 class="sechead">Binary Tree</h2>
+                        <p class="text">Binary Tree is a special type of generic tree in which, each node can have at most two children. Binary tree is generally partitioned into three disjoint subsets.</p>
+                        <ul>
+                            <li>Root of the node</li>
+                            <li>left sub-tree which is also a binary tree.</li>
+                            <li>Right binary sub-tree</li>
+                        </ul>
+                        <p class="text">A binary Tree is shown in the following image.</p>
+                        <section' class="main-section" id="binary-tree-image">
+                            <img class="graphim" src="https://static.javatpoint.com/ds/images/binary-tree.png" alt="Image of Binary Tree">
+                        </section>
+                    </section>
+                    <section class="main-section" id="binary-search-tree">
+                        <h2 class="sechead">Binary Search Tree</h2>
+                        <ul>
+                            <li>Binary Search tree can be defined as a class of binary trees, in which the nodes are arranged in a specific order. This is also called ordered binary tree.</li>
+                            <li>In a binary search tree, the value of all the nodes in the left sub-tree is less than the value of the root.</li>
+                            <li>Similarly, value of all the nodes in the right sub-tree is greater than or equal to the value of the root.</li>
+                            <li>This rule will be recursively applied to all the left and right sub-trees of the root.</li>
+                        </ul>
+                        <section' class="main-section" id="binary-search-tree-image">
+                            <img class="image" src="https://static.javatpoint.com/ds/images/binary-search-tree.png" alt="Image of Binary Search Tree">
+                        </section>
+                        <p class="text">A Binary search tree is shown in the above figure. As the constraint applied on the BST, we can see that the root node 30 doesn't contain any value greater than or equal to 30 in its left sub-tree and it also doesn't contain any value less than 30 in its right sub-tree.</p>
+                    </section>
+                    <section class="main-section" id="avl-tree">
+                        <h2 class="sechead">A.V.L Tree</h2>
+                        <p class="text">AVL Tree is invented by GM Adelson - Velsky and EM Landis in 1962. The tree is named AVL in honour of its inventors.</p>
+                        <p class="text">AVL Tree can be defined as height balanced binary search tree in which each node is associated with a balance factor which is calculated by subtracting the height of its right sub-tree from that of its left sub-tree.</p>
+                        <p class="text">Tree is said to be balanced if balance factor of each node is in between -1 to 1, otherwise, the tree will be unbalanced and need to be balanced.</p>  
+                        <section' class="main-section" id="avl-tree-image">
+                            <img class="image" src="https://static.javatpoint.com/ds/images/avl-tree.png" alt="Image of AVL Tree">
+                        </section>
+                    </section>
+                    <section class="main-section" id="b-tree">
+                        <h2 class="sechead">B-Tree</h2>
+                        <p class="text">B Tree is a specialized m-way tree that can be widely used for disk access. A B-Tree of order m can have at most m-1 keys and m children. One of the main reason of using B tree is its capability to store large number of keys in a single node and large key values by keeping the height of the tree relatively small.</p>
+                        <p class="text">A B tree of order m contains all the properties of an M way tree. In addition, it contains the following properties.</p>
+                        <ul>
+                            <li>Every node in a B-Tree contains at most m children.</li>
+                            <li>Every node in a B-Tree except the root node and the leaf node contain at least m/2 children.</li>
+                            <li>The root nodes must have at least 2 nodes.</li>
+                            <li>All leaf nodes must be at the same level.</li>
+                        </ul>
+                    </section> 
+                    <section class="main-section" id="b+tree">
+                        <h2 class="sechead">B+ Tree</h2>
+                        <p class="text">B+ Tree is an extension of B Tree which allows efficient insertion, deletion and search operations.</p>
+                        <p class="text">In B Tree, Keys and records both can be stored in the internal as well as leaf nodes. Whereas, in B+ tree, records (data) can only be stored on the leaf nodes while internal nodes can only store the key values.</p>
+                        <p class="text">The leaf nodes of a B+ tree are linked together in the form of a singly linked lists to make the search queries more</p>
+                        <p class="text">B+ Tree are used to store the large amount of data which can not be stored in the main memory. Due to the fact that, size of main memory is always limited, the internal nodes (keys to access records) of the B+ tree are stored in the main memory whereas, leaf nodes are stored in the secondary memory.</p>
+                    </section>    
+            </section>
+            <section class="main-section" id="graph">
+                <header>Graph</header>
+                <p class="text">A graph can be defined as group of vertices and edges that are used to connect these vertices. A graph can be seen as a cyclic tree, where the vertices (Nodes) maintain any complex relationship among them instead of having parent child relationship.</p>
+                <section class="main-section" id="graph-defination">
+                        <h2 class="sechead">Defination</h2>
+                        <p class="text">A graph G can be defined as an ordered set G(V, E) where V(G) represents the set of vertices and E(G) represents the set of edges which are used to connect these vertices.</p>
+                        <p class="text">A Graph G(V, E) with 5 vertices (A, B, C, D, E) and six edges ((A,B), (B,C), (C,E), (E,D), (D,B), (D,A)) is shown in the following figure.</p>
+                        <section' class="main-section" id="undirected-graph">
+                            <img class="graphim" src="https://static.javatpoint.com/ds/images/graph-definition.png" alt="Image of undirected-graph">
+                        </section> 
+                </section>
+                <section  class="main-section" id="directed-graphs">
+                        <h2 class="sechead">Directed and Undirected Graph</h2>
+                        <p class="text">A graph can be directed or undirected. However, in an undirected graph, edges are not associated with the directions with them. An undirected graph is shown in the above figure since its edges are not attached with any of the directions. If an edge exists between vertex A and B then the vertices can be traversed from B to A as well as A to B.</p>
+                        <p class="text">In a directed graph, edges form an ordered pair. Edges represent a specific path from some vertex A to another vertex B. Node A is called initial node while node B is called terminal node.</p>
+                        <p class="text">A directed graph is shown in the following figure.</p>
+                        <section' class="main-section" id="directed-graph">
+                            <img class="image" src="https://static.javatpoint.com/ds/images/directed-and-undirected-graph.png" alt="Image of directed-graph">
+                        </section>
+                </section>
+                <section class="main-section" id="graph-terminology">
+                    <h2 class="sechead">Graph terminology</h2>
+                    <ul>
+                        <li><span class="spacing"><strong>Path :-</strong></span>  A path can be defined as the sequence of nodes that are followed in order to reach some terminal node V from the initial node U.</li>
+                        <li><span class="spacing"><strong>Closed Path :-</strong></span>  A path will be called as closed path if the initial node is same as terminal node. A path will be closed path if V0=VN.</li>
+                        <li><span class="spacing"><strong>Simple Path :-</strong></span>  If all the nodes of the graph are distinct with an exception V0=VN, then such path P is called as closed simple path.</li>
+                        <li><span class="spacing"><strong>Cycle :-</strong></span>  A cycle can be defined as the path which has no repeated edges or vertices except the first and last vertices.</li>
+                        <li><span class="spacing"><strong>Connected Graph :-</strong></span>  A connected graph is the one in which some path exists between every two vertices (u, v) in V. There are no isolated nodes in connected graph.</li>
+                        <li><span class="spacing"><strong>Complete Graph :-</strong></span>  A complete graph is the one in which every node is connected with all other nodes. A complete graph contain n(n-1)/2 edges where n is the number of nodes in the graph.</li>
+                        <li><span class="spacing"><strong>Weighted Graph :-</strong></span>In a weighted graph, each edge is assigned with some data such as length or weight. The weight of an edge e can be given as w(e) which must be a positive (+) value indicating the cost of traversing the edge.</li>
+                        <li><span class="spacing"><strong>Digraph :-</strong></span>  A digraph is a directed graph in which each edge of the graph is associated with some direction and the traversing can be done only in the specified direction.</li>
+                        <li><span class="spacing"><strong>Loop :-</strong></span>  An edge that is associated with the similar end points can be called as Loop.</li>
+                        <li><span class="spacing"><strong>Adjacent Nodes :-</strong></span>  If two nodes u and v are connected via an edge e, then the nodes u and v are called as neighbours or adjacent nodes.</li>
+                        <li><span class="spacing"><strong>Degree of the Node :-</strong></span>  A degree of a node is the number of edges that are connected with that node. A node with degree 0 is called as isolated node.</li>
+                    </ul>
+                </section>
+            </section>
+            <section class="main-section" id="searching">
+                 <header>Searching</header>   
+                 <section class="main-section" id="searching-def">
+                    <h2 class="sechead">Defination</h2>
+                    <p class="text">Searching is the process of finding some particular element in the list. If the element is present in the list, then the process is called successful and the process returns the location of that element, otherwise the search is called unsuccessful.</p>
+                    <p class="text">There are two popular search methods that are widely used in order to search some item into the list. However, choice of the algorithm depends upon the arrangement of the list.</p>
+                 </section>
+                 <section class="main-section" id="linear-search">
+                    <h2 class="sechead">Linear-Search</h2>
+                    <p class="text">Linear search is the simplest search algorithm and often called sequential search. In this type of searching, we simply traverse the list completely and match each element of the list with the item whose location is to be found. If the match found then location of the item is returned otherwise the algorithm return NULL.</p>
+                 </section>  
+                 <section class="main-section" id="binary-search">
+                    <h2 class="sechead">Binary-Search</h2>
+                    <p class="text">Binary search is the search technique which works efficiently on the sorted lists. Hence, in order to search an element into some list by using binary search technique, we must ensure that the list is sorted.</p>
+                    <p class="text">Binary search follows divide and conquer approach in which, the list is divided into two halves and the item is compared with the middle element of the list. If the match is found then, the location of middle element is returned otherwise, we search into either of the halves depending upon the result produced through the match.</p>
+                 </section>     
+            </section>
+            <section class="main-section" id="sorting">
+                <header>Sorting</header>
+                <section class="main-section" id="sort-types">
+                    <h2 class="sechead">Types</h2>
+                    <ul>
+                        <li><span class="spacing"><strong>Bubble Sort :-</strong></span>  In Bubble sort, Each element of the array is compared with its adjacent element. The algorithm processes the list in passes. A list with n elements requires n-1 passes for sorting. Consider an array A of n elements whose elements are to be sorted by using Bubble sort.</li>
+                        <li><span class="spacing"><strong>Heap Sort :-</strong></span>  Heap sort processes the elements by creating the min heap or max heap using the elements of the given array. Min heap or max heap represents the ordering of the array in which root element represents the minimum or maximum element of the array.</li>
+                        <li><span class="spacing"><strong>Insertion Sort :-</strong></span>  Insertion sort is the simple sorting algorithm which is commonly used in the daily lives while ordering a deck of cards. In this algorithm, we insert each element onto its proper place in the sorted array. This is less efficient than the other sort algorithms like quick sort, merge sort, etc.</li>
+                        <li><span class="spacing"><strong>Quick Sort :-</strong></span>  Quick sort is the widely used sorting algorithm that makes n log n comparisons in average case for sorting of an array of n elements. This algorithm follows divide and conquer approach.</li>
+                        <li><span class="spacing"><strong>Shell Sort :-</strong></span>  Shell sort is the generalization of insertion sort which overcomes the drawbacks of insertion sort by comparing elements separated by a gap of several positions.</li>
+                    </ul>
+                </section>
+            <section class="main-section" id="reference">
+                <header>Reference</header>
+                <p class="text">All the documentation in this page is taken from <a href="https://www.javatpoint.com/data-structure-tutorial" target="_blank">MDN</a></p>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,126 @@
+#body{
+    margin: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#navbar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    background-color: #d9a5b3;
+}
+#nav-header{
+    font-size: 33px;
+    margin: 20px 10px;
+    text-align: center;
+}
+#navbar ul{
+    height: 88%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-inline-start: 0px;
+}
+#navbar li{
+    border-top: 1px solid;
+    width: 100%;
+}
+.nav-link{
+    display: block;
+    cursor: pointer;
+    padding: 15px 30px;
+    color: #000;
+    font-size: 19px;
+    text-decoration: none;
+}
+#main-doc{
+    position: absolute;
+    margin-left: 303px;
+    padding: 20px;
+    background-color: #c6d7eb;
+}
+.main-section{
+    display: block;
+    margin: 20px 5px;
+    padding: 4px;
+}
+#main-doc article{
+    margin: 15px;
+    line-height: 23px;
+    text-align: justify;
+    font-size: 1em;
+}
+#main-doc header{
+    text-align: left;
+    margin: 0px;
+    font-size: 2.0em;
+}
+.spacing{
+    letter-spacing: 1px;
+}
+#main-doc li{
+    margin: 15px 0px 0px 20px;
+    padding: 10px 0px;
+}
+.sechead{
+    font-weight: 300;
+    margin-inline-start: 15px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+.text{
+    margin-left: 45px;
+    text-align: justify;
+}
+.image{
+    width: 500px;
+    margin-left: 25vh;
+    height: 400px;
+}
+.linkim{
+    width: 800px;
+    margin-left: 200px;
+}
+.graphim{
+    width: 500px;
+    margin-left: 25vh;
+    height: 400px;
+}
+@media screen and (max-width: 480px)
+{
+    #main-doc{
+        position: relative;
+        margin-left: -10px;
+        padding: 10px 25px;
+        background-color: #c6d7eb;
+        margin-top: 270px;
+    }
+    #navbar{
+        position: absolute;
+        top: 0px;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 275px;
+        border: none;
+        border-bottom: 2px solid;
+        background-color: #d9a5b3;
+    }
+    .image{
+        width: 275px !important;
+        margin-left: 2.0vh;
+        height: 300px;
+    }
+    .linkim{
+        width: 300px;
+        margin-left: 1.0vh;
+        height: 130px;
+    }
+    .graphim{
+        width: 275px !important;
+        margin-left: 1.5vh;
+        height: 300px;
+    }
+}
