@@ -1,0 +1,269 @@
+#title{
+    font-family: -webkit-pictograph;
+    font-size: xxx-large;
+    color: #f4c430;
+    margin-bottom: 3px;
+    margin-block-start: 0px;
+    padding-top: 10px; 
+}
+#btitle{
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    color: #f4c430;
+    font-size: x-large;
+    font-family: -webkit-pictograph;
+}
+#ctitle{
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    font-size: medium;
+    font-weight: normal;
+    color: #f4c430;
+    padding-bottom: 10px;
+}
+.color{
+    background-color: #4B0082;
+}
+#titlebackground{
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#img-div{
+    text-align: center;
+    margin-top: 70px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.border{
+    border: 3px solid #4B0082;
+}
+#img-caption{
+    font-family: -webkit-pictograph;
+    text-decoration: underline;
+    font-size: unset;
+}
+#description{
+    background-color: #0d98ba;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13vh !important;
+    margin-bottom: 13vh !important;
+    padding: 30px 60px;
+}
+#direction{
+    flex-direction: column;
+   align-items: center;
+   text-align: center;
+   max-width: 900px;
+}
+#descriptionheading{
+    color:  #ff5349;
+    font-family: -webkit-pictograph;
+    font-size: 30px;
+}
+#descriptiontext{
+    font-family: -webkit-pictograph; 
+    font-size: 18px;
+    text-align: justify;
+}
+#image2{
+    float: right;
+   width: 25%; 
+   flex-direction: row;
+   height: 230px;
+   align-self: center;
+}
+#family{
+ display: flex;
+ background-color: #C0C0C0;
+ justify-content: space-between;
+ margin-top: 13vh !important;
+ margin-bottom: 13vh !important;
+ padding: 30px 60px;
+}
+#column{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 900px;
+    align-self: center;
+    order: 2;
+}
+#familytitle{
+    font-size: 30px;
+    font-family: -webkit-pictograph;
+    color: #2e8b57;
+}
+#familytext{
+    font-size: 18px;
+    font-family: -webkit-pictograph;
+    text-align: justify;
+}
+#famimg{
+    flex-direction: row;
+    align-self: center;
+    height: 300px;
+    width: 28%; 
+    order: 1;
+}
+#Khalsa{
+    display: flex;
+    background-color: #c71585;
+    justify-content: space-between;
+    margin-top: 13vh !important;
+    margin-bottom: 13vh !important;
+    padding: 30px 60px;
+}
+#khcolumn{
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   max-width: 900px;
+   align-self: center;
+}
+#khalsatitle{
+    color:  #adff2f;
+    font-family: -webkit-pictog raph;
+    font-size: 30px;
+}
+#khalsatext{
+    font-family: -webkit-pictograph; 
+    font-size: 18px;
+    text-align: justify;
+}
+#khimage{
+    float: right;
+    flex-direction: row;
+    width: 28%; 
+    height: 300px;
+    align-self: center;
+}
+.ccc{
+    background-color: #D3D3D3;
+    text-align: center;
+}
+#battles{
+    display: flex;
+    padding: 30px 60px;
+    flex-direction: column;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13vh !important;
+    margin-bottom: 13vh !important;
+}
+#battlestitle{
+    font-size: 30px;
+    font-family: -webkit-pictograph;
+    color: #000000;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.1em;
+}
+#battlesdetext{
+    font-size: 20px;
+    font-family: -webkit-pictograph;
+}
+#battlestext{
+    background-color: #ffffff;
+   text-align: justify;
+   padding: 11px 22px;
+   order: 2;
+}
+#link{
+    text-align: center;
+    background-color: turquoise;
+    font-size: 20px;
+    font-family: -webkit-pictograph;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 480px)
+{
+    #title{
+        font-size: 30px;
+        margin-bottom: 15px;
+        display: contents;
+        width: 350px;
+    }
+    #btitle{
+        font-size: 18px;
+    }
+    #ctitle{
+        font-size: 18px;
+    }
+    .border{
+        width: 350px;
+    }
+    #description{
+        margin-top: 6vh !important;
+        margin-bottom: 6vh !important;
+        flex-direction: column;
+        padding: 10px 25px;
+    }
+    #img-caption{
+        font-size: 15px;
+    }
+    #image2{
+        height: 250px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        width: 100%;
+    }
+    #family{
+        margin-top: 8vh !important;
+        margin-bottom: 8vh !important;
+        padding: 10px 25px;
+        flex-direction: column-reverse;
+    }
+    #famimg{
+        height: 250px;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #Khalsa{
+        margin-top: 8vh !important;
+        margin-bottom: 8vh !important;
+        padding: 10px 25px;
+        flex-direction: column;
+    }
+    #khimage{
+        width: 100%;
+        height: 250px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #battles{
+        margin-top: 8vh !important;
+        margin-bottom: 4vh !important;
+    }
+    #battlestitle{
+        font-size: 30px;
+    }
+    #battletext{
+        font-size: 13px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    #battlesdetext{
+        font-size: 15px;
+    }
+    #battlestext{
+        padding: 5px 25px;
+        font-size: 13px;
+    }
+    #link{
+        font-size: 15px;
+    }
+}
+
