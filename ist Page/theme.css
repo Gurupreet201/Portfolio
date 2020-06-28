@@ -1,0 +1,383 @@
+
+    #navbar{
+        background-color: #000000;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    nav ul {
+        padding: 2px 0px 2px 10px;
+    }
+    nav li {
+     display: inline;
+     margin-right: 40px;
+     color: rgb(255,255,255);
+    }
+
+    .navli a{
+        color: white;
+        text-decoration: none;
+    }
+
+    #image{
+    width: 100%;
+    }
+    #heading1{
+        font-size: 37px;
+        font-family: sans-serif;
+        text-decoration: none;
+        font-weight: normal;
+        margin-block-start: 0vh;
+        margin-block-end: 1vh;
+    }
+    #heading2{
+        font-size: 15px;
+        opacity: 0.60;
+    }
+    #para{
+         text-align: justify;
+         font-size: 15px;
+        line-height: 1.5;
+    }
+    #flexx{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+        padding-top: 64px!important;
+        padding-bottom: 64px!important;
+        text-align: center!important;
+    }
+    #second{
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        padding-top: 32px!important;
+        width: auto;
+    }
+    .images{
+        width: 60%;
+        vertical-align: 50px;
+    }
+    .head{
+        font-weight: normal;
+        font-size: 16px;
+    }
+    #tour{
+        background-color: #000000!important;
+        color: #ffffff!important;
+    }
+    #dates{
+        max-width: 800px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 64px!important;
+        padding-top: 64px!important;
+    }
+    #heading3{
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center !important;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        letter-spacing: 8px;
+    }
+    #heading4{
+        text-align: center !important;
+        font-size: 15px;
+         font-family: lapto;
+         font-style: italic;
+    }
+    #list{
+        color: #757575 !important;
+        background-color: #ffffff !important;
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: normal;
+        padding-inline-start: 2px; 
+        list-style: none;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    #Sep{
+        padding: 8px 16px !important;
+        border-bottom: 1px solid #ddd;
+    }
+    #Oct{
+       padding: 8px 16px !important;
+       border-bottom: 1px solid #ddd;
+    }
+    #Nov{
+        padding: 8px 16px !important;
+    }
+    #no3{
+        margin-right: 25px;
+        background-color: #000;
+       color: #fff;
+       display: inline-block;
+       padding-left: 8px;
+       padding-right: 8px;
+       float: right !important;
+       border-radius: 100%;
+    }
+    .soldout{
+        background-color: #ff0000;
+        color: #ffffff;
+        margin-left: 16px;
+        padding: 4px 8px;
+    }
+    #button{
+        background-color: #000000;
+        color: #ffffff;
+        border: none;
+        vertical-align: middle;
+        margin-bottom: 20px;
+        padding: 8px 16px;
+    }
+    .flexind{
+        width: 30%;
+        margin-right: 5px;   
+    }
+    .flexdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .margin-right{
+        margin-right: 20px;
+    }
+    .secim{
+        width: 100%;
+        vertical-align: middle;
+    }
+    .sectext{
+        color: #000!important;
+        background-color: #fff!important;
+        padding: 0.01em 16px;
+    }
+    .country{
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+       }
+       .date{
+               font-weight: normal;
+               font-family: Arial, sans-serif;
+               font-size: 15px;
+               opacity: 0.60;
+               margin-block-start: 1em;
+              margin-block-end: 1em;
+       }
+       .text{
+               font-family: Arial, sans-serif;
+               font-size: 14px;
+               margin-block-start: 1em;
+               margin-block-end: 1em;
+       }
+   #last{
+       max-width: 800px;
+       margin-right: auto;
+       margin-left: auto;
+       padding-bottom: 64px!important;
+       padding-top: 64px!important;
+   }
+   #heading5{
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+   }
+   #heading6{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 13px;
+    opacity: 0.40;
+   }
+   #hhl{
+       display: flex;
+       flex-direction: row;
+       align-items: baseline;
+       justify-content: space-between;
+   }
+   .row{
+       margin: 0 0px 8px 0px;
+   }
+   #mess{
+    width: 95%;
+   }
+   #fo{
+       display: flex;
+       flex-direction: row;
+       margin-top: 1em; 
+       margin-left: 0em;
+      }
+   .input{
+       padding: 8px;
+   }
+   #lastimage{
+       width: 100%
+   }
+   .button{
+    color: #fff!important;
+    background-color: #000!important;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    width: 20%;
+    border: none;
+    padding: 8px 16px;
+    float: right;
+   }
+   @media screen and (max-width: 480px)
+   {
+      #image{
+        width: 100%;
+      }
+      nav ul{
+        height: 5px;
+      }
+      .navli a{
+        font-size: 8px;
+      }
+      #heading1{
+        font-size: 35px;
+        margin-block-start: 3vh;
+      }
+      #heading2{
+        font-size: 15px;
+      }
+      #para{
+        line-height: 1.3;
+        padding: 0px 15px;
+      }
+      #second{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 9%;
+        margin-bottom: 9%;
+      }
+      .head{
+        font-size: 16px;
+      }
+      #dates{
+        padding-bottom: 16% !important;
+        padding-top: 16%!important;
+      }
+      #heading3{
+        font-size: 30px;
+        letter-spacing: 5px;
+      }
+      #heading4{
+        font-size: 18px;
+      }
+      #list{
+        font-size: 18px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .soldout{
+        margin-left: 32px;
+        padding: 4px 8px;
+      }
+      #no3{
+        border-radius: 45%;
+      }
+      #Sep{
+        padding: 15px 30px !important;
+        border-bottom: 3px solid #ddd;
+      }
+      #Oct{
+        padding: 15px 30px !important;
+        border-bottom: 3px solid #ddd;
+      }
+      #Nov{
+        padding: 15px 30px !important;
+      }
+      #dates{
+        max-width: 370px;
+      }
+      .flexdiv{
+        flex-direction: column;
+        padding: 10px 20px;
+      }
+      .flexind{
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 80px;
+      }
+      .margin-right{
+        margin-right: 0px;
+      }
+      .sectext{
+        padding: 10px 25px;
+        line-height: 1.5;
+      }
+      .country{
+        font-size: 22px;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+      }
+      .dates{
+        font-size: 15px;
+      }
+      .text{
+        font-size: 15px;
+      }
+      #button{
+        padding: 10px 15px;
+        font-size: 17px;
+      }
+      #heading5{
+        font-size: 40px;
+        margin-block-end: 0.5em;
+      }
+      #heading6{
+        font-size: 20px;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+      }
+      #hhl{
+        flex-direction: column;
+        align-items: center;
+      }
+      .size{
+        font-size: 24px;
+        margin-block-start: 1.4em;
+        font-family: sans-serif;
+        margin-block-end: 1.4em;
+      }
+      #fo{
+        font-size: 10px;
+        margin-top: 1.5em;
+        margin-left: 5em;
+      }
+      .input{
+        font-size: 20px;
+        padding: 20px;
+        border: 1px solid #000;
+        margin: 0 0px 8px 0px;
+      }
+      #mess{
+        width: 77.5%;
+      }
+      .row{
+        margin: 0px;
+      }
+      .button{
+        font-size: 25px;
+        padding: 10px 20px;
+        margin-right: 30px;
+        width: 35.5%;
+      }
+      #lastimage{
+       width: 100%;
+      }
