@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>
+            Diet Survey Form
+        </title>
+        <link rel="stylesheet" href="Html-Project-3.css">
+    </head>
+    <body>
+        <div class="background-image">
+            <div id="container">
+              <header class="header">
+                  <h1 id="title">Diet Survey Form</h1>
+                  <p id="description">Thank you for taking the time for the survey of diet</p>
+              </header>
+              <form id="survey-form" action="" target="_blank">
+                <div class="form-group">
+                    <label class="label" id="name-label" for="name">Name</label>
+                    <input class="form-control" type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label class="label" id="email-label" for="email">Email</label>
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label class="label" id="number-label" for="number">Age (optional)</label>
+                    <input class="form-control" type="number" name="age" id="number" placeholder="Age">
+                </div>
+                <div class="form-group">
+                    <p id="veg" class="label">Which option best describes your diet?</p>
+                    <select id="dropdown" name="diet" class="form-control" required>
+                    <option disabled selected value>Select a option</option>
+                    <option value="Vegetarien">Vegetarien</option>
+                    <option value="Non-Vegetarien">Non-Vegetarien</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p id="gender" class="label">Gender</p>
+                    <select id="gendown" name="gender" class="form-control" required>
+                    <option disabled selected value>Select your gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p id="importance" class="label">How important is it to you to eat healthy?</p>
+                    <label>
+                        <input name="importance" value="Very important" type="radio" class="input-radio size" checked>Very important
+                    </label>
+                    <label>
+                        <input name="importance" value="Somewhat important" type="radio" class="input-radio size">Somewhat important
+                    </label>
+                    <label>
+                        <input name="importance" value="Not that important" type="radio" class="input-radio size">Not that important
+                    </label>
+                    <label>
+                        <input name="importance" value="Not at that important" type="radio" class="input-radio size">Not at that important
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p id="healthy" class="label">Do you try to eat healthy when dining out?</p>
+                    <label>
+                        <input name="healthy" value="Almost always" type="radio" class="input-radio" >Almost always
+                    </label>
+                    <label>
+                        <input name="healthy" value="Usually" type="radio" class="input-radio">Usually
+                    </label>
+                    <label>
+                        <input name="healthy" value="Sometimes" type="radio" class="input-radio">Sometimes
+                    </label>
+                    <label>
+                        <input name="healthy" value="Rarely" type="radio" class="input-radio">Rarely
+                    </label>
+                    <label>
+                        <input name="healthy" value="Never" type="radio" class="input-radio">Never
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p id="fruits" class="label">Where do you usually consume fruits and/or vegetables?</p>
+                    <select id="fruitdown" name="fruit" class="form-control" required>
+                    <option disabled selected value>Select a option</option>
+                    <option value="Always at home">Always at home</option>
+                    <option value="Mostly at home">Mostly at home</option>
+                    <option value="About equally, home and at work">About equally, home and at work</option>
+                    <option value="Mostly at home, some dining out">Mostly at home, some dining out</option>
+                    <option value="About equally, home and when dining out">About equally, home and when dining out</option>
+                    <option value="Mostly when dining out">Mostly when dining out</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p id="children" class="label">How easy/difficult is it to get your children to eat their vegetables?</p>
+                    <label>
+                        <input name="children" value="Easy" type="radio" class="input-radio" >Easy
+                    </label>
+                    <label>
+                        <input name="children" value="Somewhat easy" type="radio" class="input-radio">Somewhat easy
+                    </label>
+                    <label>
+                        <input name="children" value="Somewhat difficult" type="radio" class="input-radio">Somewhat diffcult
+                    </label>
+                    <label>
+                        <input name="children" value="Very difficult" type="radio" class="input-radio">Very difficult
+                    </label>
+                    <label>
+                        <input name="children" value="N/a (don't have children at home)" type="radio" class="input-radio">N/a (don't have children at home)
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p id="nutrition" class="label">Do you read the Nutrition Facts labels on grocery items?</p>
+                    <label>
+                        <input name="nutrition" value="Almost always" type="radio" class="input-radio" >Almost always
+                    </label>
+                    <label>
+                        <input name="nutrition" value="Usually" type="radio" class="input-radio">Usually
+                    </label>
+                    <label>
+                        <input name="nutrition" value="Sometimes" type="radio" class="input-radio">Sometimes
+                    </label>
+                    <label>
+                        <input name="nutrition" value="Rarely" type="radio" class="input-radio">Rarely
+                    </label>
+                    <label>
+                        <input name="nutrition" value="Never" type="radio" class="input-radio">Never
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p id="meal" class="label">What meal would you consider to be your main meal of the day?</p>
+                    <select id="meal" name="meal" class="form-control" required>
+                    <option disabled selected value>Select a option</option>
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Lunch">Lunch</option>
+                    <option value="Dinner">Dinner</option>
+                    <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p id="calorie" class="label">What does "eating healthy" mean to you?<span class="clue">(Check all that apply)</span></p>
+                    <label>
+                        <input name="calorie" value="Low calorie foods" type="checkbox" class="input-checkbox" >Low calorie foods
+                    </label>
+                    <label>
+                        <input name="calorie" value="Low carbs" type="checkbox" class="input-checkbox">Low carbs
+                    </label>
+                    <label>
+                        <input name="calorie" value="Low fat" type="checkbox" class="input-checkbox">Low fat
+                    </label>
+                    <label>
+                        <input name="calorie" value="Low sodium" type="checkbox" class="input-checkbox">Low sodium
+                    </label>
+                    <label>
+                        <input name="calorie" value="Low sugar" type="checkbox" class="input-checkbox">Low sugar
+                    </label>
+                    <label>
+                        <input name="calorie" value="Eating fresh" type="checkbox" class="input-checkbox">Eating fresh
+                    </label>
+                    <label>
+                        <input name="calorie" value="Well-balanced" type="checkbox" class="input-checkbox">Well-balanced
+                    </label>
+                    <label>
+                        <input name="calorie" value="Organic foods" type="checkbox" class="input-checkbox">Organic foods
+                    </label>
+                    <label>
+                        <input name="calorie" value="Natural foods" type="checkbox" class="input-checkbox">Natural foods
+                    </label>
+                    <label>
+                        <input name="calorie" value="Whole grains" type="checkbox" class="input-checkbox">Whole grains
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p id="prepare" class="label">What does your main meal on the weekend consist of and how is it prepared?</p>
+                    <select name="prepare" class="form-control" required>
+                    <option disabled selected value>Select a option</option>
+                    <option value="Freshly home-cooked produce">Freshly home-cooked produce</option>
+                    <option value="Restaurant meal">Restaurant meal</option>
+                    <option value="Pre-cooked,microwave or TV dinners">Pre-cooked,microwave or TV dinners</option>
+                    <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p id="percent" class="label">What percentage of your regular diet consists of meat and meat products?</p>
+                    <select name="percent" class="form-control" required>
+                    <option disabled selected value>Select a option</option>
+                    <option value="90% or more">90% or more</option>
+                    <option value="75%">75%</option>
+                    <option value="50%">50%</option>
+                    <option value="25%">25%</option>
+                    <option value="Less than 25%">Less than 25%</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p id="vegetable" class="label">Check which of these you think constitutes a serving of fruits or vegetables.</p>
+                    <label>
+                        <input name="vegetable" value="fruit or vegetable juice" type="checkbox" class="input-checkbox" >Fruit or vegetable juice
+                    </label>
+                    <label>
+                        <input name="vegetable" value="vegetable side dish" type="checkbox" class="input-checkbox">Vegetable side dish
+                    </label>
+                    <label>
+                        <input name="vegetable" value="side salad" type="checkbox" class="input-checkbox">Side salad
+                    </label>
+                    <label>
+                        <input name="vegetable" value="entree salad" type="checkbox" class="input-checkbox">Entree salad
+                    </label>
+                    <label>
+                        <input name="vegetable" value="whole fruit of vegetable" type="checkbox" class="input-checkbox">Whole fruit of vegetable
+                    </label>
+                    <label>
+                        <input name="vegetable" value="fruit smoothie" type="checkbox" class="input-checkbox">Fruit smoothie
+                    </label>
+                    <label>
+                        <input name="vegetable" value="vegetable soup" type="checkbox" class="input-checkbox">Vegetable soup
+                    </label>
+                    <label>
+                        <input name="vegetable" value="fruit dessert (apple pie,strawberry shortcake,cobbler)" type="checkbox" class="input-checkbox">Fruit dessert (apple pie,strawberry shortcake,cobbler)
+                    </label>
+                    <label>
+                        <input name="vegetable" value="Vitamin or supplement" type="checkbox" class="input-checkbox">Vitamin or supplement
+                    </label>
+                </div>
+                <div class="form-group">
+                    <p id="BMI" class="label">Do you know your current BMI (Body Mass Index) index?</p>
+                    <select name="BMI" class="form-control" required>
+                    <option disabled selected value>Select a option</option>
+                    <option value="Less than 18.5 (Underweight)">Less than 18.5 (Underweight)</option>
+                    <option value="18.5-25(Ideal weight)">18.5-25(Ideal weight)</option>
+                    <option value="25-30(Overweight)">25-30(Overweight)</option>
+                    <option value="30-35(Moderate obesity)">30-35(Moderate obesity)</option>
+                    <option value="35-40(Obesity)">35-40(Obesity)</option>
+                    <option value="More than 40(Morbidly)">More than 40(Morbidly)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p id="area" class="label">Suggest some tips for good diet.</p>
+                    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comments here..... " rows="6" columns="4"></textarea> 
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button">Submit</button>
+                </div>
+              </form>
+            </div>
+        </div>
+    </body>
+</html>
